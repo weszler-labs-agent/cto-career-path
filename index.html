@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CTO Career Path</title>
+  <title>Sebastian Weszler | Software Engineer</title>
+  <meta name="description" content="Software Engineer | Technology Enthusiast | Problem-Solver. Passionate about using technology to solve problems and improve people's lives.">
+  <meta property="og:title" content="Sebastian Weszler | Software Engineer">
+  <meta property="og:description" content="Software Engineer | Technology Enthusiast | Problem-Solver">
+  <meta property="og:url" content="https://sebastianweszler.com">
+  <meta property="og:site_name" content="Sebastian Weszler">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">CTO</div>
+      <div class="logo">SW</div>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -21,33 +27,46 @@
 
   <main>
     <section id="hero">
-      <h1>Building the Future</h1>
-      <p>Technology leadership, engineering excellence, and strategic vision.</p>
-      <a href="#contact" class="cta-button">Get in Touch</a>
+      <h1>Sebastian Weszler</h1>
+      <p>Software Engineer | Technology Enthusiast | Problem-Solver</p>
+      <p class="subtitle">I'm passionate about using technology to solve problems and improve people's lives. Always looking for new ways to innovate and create.</p>
+      <div class="hero-links">
+        <a href="https://github.com/SWeszler" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/sebastianweszler" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://medium.com/@s.weszler" target="_blank" rel="noopener noreferrer">Medium</a>
+        <a href="https://leetcode.com/sweszler/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
     </section>
 
     <section id="about">
-      <h2>About</h2>
-      <p>Experienced technology leader with a passion for building scalable systems, leading engineering teams, and driving product innovation from concept to delivery.</p>
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>Born and raised in Poland, I studied Electronic Engineering at Technical University of Poland, which laid the foundation for my technical journey.</p>
+        <p>After graduation, I worked as a Technician before venturing into entrepreneurship, where I founded and operated a successful online bicycle store.</p>
+        <p>My passion for building and innovating eventually led me back to my technical roots. Today, I am a Lead Full-stack Software Engineer, leveraging my diverse background to build robust, user-centric applications.</p>
+      </div>
     </section>
 
     <section id="experience">
       <h2>Experience</h2>
       <div class="timeline">
         <div class="entry">
-          <h3>Chief Technology Officer</h3>
-          <p class="meta">Startup · 2024 — Present</p>
-          <p>Leading technical strategy, architecture, and engineering team. Driving product-market fit and scalable infrastructure.</p>
+          <div class="dot"></div>
+          <h3>Lead Full-stack Software Engineer</h3>
+          <p class="meta">2023 — Present</p>
+          <p>Building modern web applications using React, Next.js, TypeScript, and Python. Architecting scalable solutions and leading technical initiatives.</p>
         </div>
         <div class="entry">
-          <h3>Senior Engineering Lead</h3>
-          <p class="meta">Tech Company · 2021 — 2024</p>
-          <p>Managed distributed teams, designed microservices architecture, reduced infrastructure costs by 40%.</p>
+          <div class="dot"></div>
+          <h3>Entrepreneur &amp; Store Owner</h3>
+          <p class="meta">2018 — 2023</p>
+          <p>Founded and operated a successful online bicycle store. Managed all aspects including e-commerce platform development, supply chain, and customer relations.</p>
         </div>
         <div class="entry">
-          <h3>Full-Stack Engineer</h3>
-          <p class="meta">Startup · 2018 — 2021</p>
-          <p>Built core product features, established CI/CD pipelines, and mentored junior engineers.</p>
+          <div class="dot"></div>
+          <h3>Technician</h3>
+          <p class="meta">2015 — 2018</p>
+          <p>Applied electronic engineering expertise in a technical role, building hands-on experience with hardware and systems.</p>
         </div>
       </div>
     </section>
@@ -56,29 +75,93 @@
       <h2>Projects</h2>
       <div class="grid">
         <div class="card">
-          <h3>Platform Architecture</h3>
-          <p>Designed and deployed a multi-region, fault-tolerant platform serving millions of requests per day.</p>
+          <h3>google-kickstart</h3>
+          <p>Python solutions for Google Kickstart coding competitions. Features efficient algorithms and data structure implementations.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>Algorithms</span>
+          </div>
+          <a href="https://github.com/SWeszler/google-kickstart" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub</a>
         </div>
         <div class="card">
-          <h3>Developer Tools</h3>
-          <p>Open-source tooling for automating infrastructure workflows and improving developer experience.</p>
+          <h3>scrumpoker</h3>
+          <p>Real-time Scrum Poker application for agile estimation. Built with modern web technologies for distributed teams.</p>
+          <div class="tags">
+            <span>WebSocket</span>
+            <span>Real-time</span>
+          </div>
+          <a href="https://github.com/SWeszler/scrumpoker" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub</a>
         </div>
         <div class="card">
-          <h3>AI Integration</h3>
-          <p>Led integration of LLM-based features into production systems with robust evaluation pipelines.</p>
+          <h3>django-k8s</h3>
+          <p>Production-ready Django deployment template for Kubernetes. Includes CI/CD, monitoring, and best practices for containerized Django applications.</p>
+          <div class="tags">
+            <span>Django</span>
+            <span>Kubernetes</span>
+            <span>DevOps</span>
+          </div>
+          <a href="https://github.com/SWeszler/django-k8s" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub</a>
+        </div>
+        <div class="card">
+          <h3>fastapi-template</h3>
+          <p>Production-ready FastAPI project template with async support, SQLAlchemy, testing setup, and comprehensive documentation.</p>
+          <div class="tags">
+            <span>FastAPI</span>
+            <span>Python</span>
+            <span>Async</span>
+          </div>
+          <a href="https://github.com/SWeszler/fastapi-template" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <ul>
+            <li>React / Next.js</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+            <li>Redux / Zustand</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js / Express</li>
+            <li>Python / FastAPI / Django</li>
+            <li>PostgreSQL / MongoDB</li>
+            <li>REST &amp; GraphQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>DevOps</h3>
+          <ul>
+            <li>Docker / Kubernetes</li>
+            <li>GitHub Actions</li>
+            <li>AWS / Vercel</li>
+            <li>Linux / Shell</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Interested in collaborating or learning more? Reach out.</p>
-      <a href="mailto:cto@example.com" class="cta-button">Send Email</a>
+      <p>Have an idea or just want to chat? I'm always open to new opportunities and collaborations.</p>
+      <a href="mailto:sebastian.weszler@gmail.com" class="cta-button">Send Email</a>
+      <div class="contact-links">
+        <a href="https://github.com/SWeszler" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/sebastianweszler" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://medium.com/@s.weszler" target="_blank" rel="noopener noreferrer">Medium</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 CTO Career Path. All rights reserved.</p>
+    <p>&copy; 2026 Sebastian Weszler. All rights reserved.</p>
   </footer>
 </body>
 </html>
