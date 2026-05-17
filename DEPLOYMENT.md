@@ -14,3 +14,4 @@ Ready for verification. Secrets added.
 3.  Verify successful deployment to Cloudflare Pages.
 4.  Configure custom domain (sebastianweszler.com).
 5.  Configure Plausible analytics and Resend email integration.
+ 
